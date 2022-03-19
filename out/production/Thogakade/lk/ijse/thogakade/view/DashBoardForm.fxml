@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="dashboardContext" prefHeight="621.0" prefWidth="889.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.thogakade.controller.DashBoardFormController">
+   <children>
+      <AnchorPane layoutX="14.0" layoutY="14.0" prefHeight="591.0" prefWidth="454.0" style="-fx-background-color: #ecf0f1;">
+         <children>
+            <ImageView fitHeight="592.0" fitWidth="462.0" onMouseClicked="#loadOrderForm" pickOnBounds="true">
+               <image>
+                  <Image url="@../assert/order.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="14.0" layoutY="14.0" text="Orders">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="471.0" layoutY="14.0" prefHeight="235.0" prefWidth="407.0" style="-fx-background-color: #ecf0f1;">
+         <children>
+            <ImageView fitHeight="241.0" fitWidth="407.0" onMouseClicked="#loadCustomerForm" pickOnBounds="true">
+               <image>
+                  <Image url="@../assert/customer.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="201.0" layoutY="182.0" text="Customers">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane layoutX="471.0" layoutY="241.0" prefHeight="187.0" prefWidth="407.0" style="-fx-background-color: #ecf0f1;">
+         <children>
+            <ImageView fitHeight="187.0" fitWidth="407.0" layoutX="7.0" onMouseClicked="#loadItemForm" pickOnBounds="true">
+               <image>
+                  <Image url="@../assert/item.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="10.0" layoutY="9.0" text="Items">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+      <AnchorPane layoutX="480.0" layoutY="418.0" prefHeight="187.0" prefWidth="398.0" style="-fx-background-color: #ecf0f1;">
+         <children>
+            <ImageView fitHeight="187.0" fitWidth="398.0" onMouseClicked="#loadOrderDetailsForm" pickOnBounds="true">
+               <image>
+                  <Image url="@../assert/order-details.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="14.0" layoutY="57.0" text="Details">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>
